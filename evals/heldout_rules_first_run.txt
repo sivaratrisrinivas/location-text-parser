@@ -1,0 +1,6 @@
+tether {'allowed': (['AT', 'DK', 'SE', 'WORLDWIDE'], ['WORLDWIDE'])}
+sourcegraph {'allowed': (['CA', 'EUROPE', 'NON_US', 'UK', 'WORLDWIDE'], ['CA', 'EUROPE', 'US', 'WORLDWIDE']), 'timezones': (['US_PACIFIC'], ['US_EAST', 'US_PACIFIC'])}
+pagnos {'visa': ('unknown', 'no')}
+vistulo {'timezones': (['US_EAST'], [])}
+hospitable {'timezones': (['EMEA', 'US_EAST'], ['EMEA', 'EUROPE', 'US', 'US_EAST'])}
+rules heldout n=16 {'allowed': '14/16', 'timezones': '13/16', 'engagement': '16/16', 'visa': '15/16', 'india': '16/16', 'conflict': '16/16'} all-fields 11/16

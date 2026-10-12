@@ -1,0 +1,77 @@
+{
+ "rules/dev": {
+  "n": 16,
+  "allowed": 15,
+  "timezones": 16,
+  "engagement": 16,
+  "visa": 16,
+  "india": 16,
+  "conflict": 16,
+  "all_fields": 15
+ },
+ "rules/heldout": {
+  "n": 16,
+  "allowed": 14,
+  "timezones": 13,
+  "engagement": 16,
+  "visa": 15,
+  "india": 16,
+  "conflict": 16,
+  "all_fields": 11
+ },
+ "rules/all": {
+  "n": 32,
+  "allowed": 29,
+  "timezones": 29,
+  "engagement": 32,
+  "visa": 31,
+  "india": 32,
+  "conflict": 32,
+  "all_fields": 26
+ },
+ "llm/dev": {
+  "n": 16,
+  "allowed": 14,
+  "timezones": 15,
+  "engagement": 16,
+  "visa": 16,
+  "india": 14,
+  "conflict": 16,
+  "all_fields": 13
+ },
+ "llm/heldout": {
+  "n": 16,
+  "allowed": 11,
+  "timezones": 13,
+  "engagement": 16,
+  "visa": 16,
+  "india": 12,
+  "conflict": 16,
+  "all_fields": 9
+ },
+ "llm/all": {
+  "n": 32,
+  "allowed": 25,
+  "timezones": 28,
+  "engagement": 32,
+  "visa": 32,
+  "india": 26,
+  "conflict": 32,
+  "all_fields": 22
+ },
+ "check/check_schema": {
+  "rules": 32,
+  "llm": 32,
+  "n": 32
+ },
+ "check/check_conflict_consistent": {
+  "rules": 32,
+  "llm": 32,
+  "n": 32
+ },
+ "check/check_india_derivation": {
+  "rules": 32,
+  "llm": 32,
+  "n": 32
+ }
+}

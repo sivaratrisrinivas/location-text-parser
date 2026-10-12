@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Where can I work from? Location text parser</title>
+<style>
+:root{--bg:#f6f7f2;--ink:#1d2a1f;--mute:#5d6b5f;--card:#fff;--line:#dde3d6;--green:#3f7d4e;--red:#b4432f;--amber:#b7791f}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
+main{max-width:1180px;margin:0 auto;padding:28px 28px 60px}h1{font-size:30px;margin:0 0 4px}p.sub{color:var(--mute);margin:0 0 18px}
+.presets{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.presets button{border:1px solid var(--line);background:#fff;border-radius:20px;padding:6px 14px;cursor:pointer;font-size:14px}
+.presets button.on{background:var(--ink);color:#fff}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.src{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.src h3{margin:0 0 6px;font-size:14px;color:var(--mute);font-weight:600}.src a{color:var(--green);font-size:13px;word-break:break-all}
+textarea{width:100%;height:150px;border:1px solid var(--line);border-radius:8px;padding:8px;font:13px/1.4 ui-monospace,monospace;resize:vertical}
+.go{margin:14px 0;background:var(--green);color:#fff;border:0;border-radius:10px;padding:10px 22px;font-size:16px;cursor:pointer}
+#out{display:none}.banner{border-radius:12px;padding:14px 18px;margin-bottom:14px;font-size:17px}
+.banner.conflict{background:#fbe9e5;border:1px solid #e9b4a8;color:var(--red)}.banner.ok{background:#e8f2ea;border:1px solid #b9d6bf;color:var(--green)}
+.fields{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.f{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.f .k{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute)}.f .v{font-size:18px;margin-top:4px}
+.chip{display:inline-block;background:#eef1ea;border-radius:6px;padding:1px 8px;margin:2px 4px 2px 0;font-size:15px}
+.india .v{font-size:26px;font-weight:700}.yes{color:var(--green)}.no{color:var(--red)}.unknown{color:var(--mute)}.conflictv{color:var(--amber)}
+.per{margin-top:12px;font-size:14px;color:var(--mute)}table{border-collapse:collapse;width:100%;margin-top:10px;background:#fff;font-size:14px}
+td,th{border:1px solid var(--line);padding:6px 8px;text-align:center}th{background:#eef1ea}h2{margin:34px 0 4px;font-size:20px}
+</style></head><body><main>
+<h1>Where can I work from?</h1>
+<p class="sub">Paste a job's location text from one or two sources. It returns allowed countries, time zones, EOR or contractor setups, visa sponsorship, and flags when the sources disagree.</p>
+<div class="presets" id="presets"></div>
+<div class="grid"><div class="src"><h3 id="n0">Source 1</h3><a id="u0" target="_blank"></a><textarea id="t0"></textarea></div>
+<div class="src"><h3 id="n1">Source 2 (optional)</h3><a id="u1" target="_blank"></a><textarea id="t1"></textarea></div></div>
+<button class="go" id="go">Parse location</button>
+<section id="out"><div id="banner" class="banner"></div>
+<div class="fields"><div class="f india"><div class="k">Can someone in India apply?</div><div class="v" id="india"></div></div>
+<div class="f"><div class="k">Allowed countries / regions</div><div class="v" id="allowed"></div></div>
+<div class="f"><div class="k">Time zones</div><div class="v" id="tz"></div></div>
+<div class="f"><div class="k">EOR / contractor setup</div><div class="v" id="eng"></div></div>
+<div class="f"><div class="k">Visa sponsorship</div><div class="v" id="visa"></div></div>
+<div class="f"><div class="k">Conflict</div><div class="v" id="conf"></div></div></div>
+<div class="per" id="per"></div></section>
+<h2>Eval: 32 real job posts, hand-labeled</h2><p class="sub">Exact match per field. Rules were tuned on dev only; held-out was scored once.</p>
+<table id="res"></table>
+</main><script>
+const $=id=>document.getElementById(id);let P={};
+const chips=a=>a.length?a.map(x=>`<span class="chip">${x}</span>`).join(""):'<span class="unknown">not stated</span>';
+async function load(){P=await (await fetch('/api/presets')).json();
+ for(const [id,c] of Object.entries(P)){const b=document.createElement('button');b.textContent=c.company;b.id='p-'+id;b.onclick=()=>pick(id);$('presets').append(b)}
+ pick('matcha-fse');const R=await (await fetch('/api/results')).json();
+ const F=['allowed','timezones','engagement','visa','india','conflict'];let h='<tr><th>engine / split</th><th>n</th>'+F.map(f=>`<th>${f}</th>`).join('')+'<th>all fields</th></tr>';
+ for(const k of ['rules/dev','rules/heldout','llm/dev','llm/heldout']){const r=R[k];h+=`<tr><td>${k}</td><td>${r.n}</td>`+F.map(f=>`<td>${r[f]}/${r.n}</td>`).join('')+`<td><b>${r.all_fields}/${r.n}</b></td></tr>`}
+ $('res').innerHTML=h}
+function pick(id){document.querySelectorAll('.presets button').forEach(b=>b.classList.toggle('on',b.id=='p-'+id));const c=P[id];
+ for(const i of [0,1]){const s=c.sources[i];$('t'+i).value=s?s.text:'';$('n'+i).textContent=s?s.name:'Source 2 (optional)';$('u'+i).textContent=s?s.url:'';$('u'+i).href=s?s.url:'#'}
+ $('out').style.display='none'}
+$('go').onclick=async()=>{const r=await (await fetch('/api/parse',{method:'POST',body:JSON.stringify({texts:[$('t0').value,$('t1').value]})})).json();
+ $('out').style.display='block';const b=$('banner');
+ if(r.conflict){b.className='banner conflict';b.innerHTML='<b>Sources disagree.</b> '+r.conflict_reasons.join('; ')}else{b.className='banner ok';b.innerHTML='<b>No conflict between sources.</b>'}
+ const iv=r.india;$('india').innerHTML=`<span class="${iv=='conflict'?'conflictv':iv}">${iv=='conflict'?'Unclear (sources conflict)':iv}</span>`;
+ $('allowed').innerHTML=chips(r.allowed);$('tz').innerHTML=chips(r.timezones);$('eng').innerHTML=chips(r.engagement);$('visa').textContent=r.visa;$('conf').textContent=r.conflict?'yes':'no';
+ $('per').innerHTML=r.per_source.map((p,i)=>`Source ${i+1}: allowed ${p.allowed.join(', ')||'not stated'}`).join(' &nbsp;|&nbsp; ');
+ $('out').scrollIntoView({behavior:'smooth',block:'nearest'})};
+load();
+</script></body></html>

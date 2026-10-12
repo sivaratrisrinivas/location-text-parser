@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: location-text-parser
+    runtime: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    autoDeploy: false

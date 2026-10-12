@@ -1,0 +1,915 @@
+{
+ "matcha-fse": {
+  "allowed": [
+   "BR",
+   "CA",
+   "EUROPE",
+   "LATAM",
+   "UK",
+   "US",
+   "WORLDWIDE"
+  ],
+  "timezones": [
+   "EUROPE",
+   "US"
+  ],
+  "engagement": [
+   "B2B",
+   "EOR"
+  ],
+  "visa": "unknown",
+  "india": "conflict",
+  "conflict": true,
+  "conflict_reasons": [
+   "sources disagree on whether India is allowed: source 1=no, source 2=yes"
+  ],
+  "per_source": [
+   {
+    "allowed": [
+     "BR",
+     "CA",
+     "EUROPE",
+     "LATAM",
+     "UK",
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [
+     "B2B",
+     "EOR"
+    ],
+    "visa": "unknown"
+   },
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "EUROPE",
+     "US"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "matcha-ai": {
+  "allowed": [
+   "BR",
+   "CA",
+   "EUROPE",
+   "LATAM",
+   "UK",
+   "US",
+   "WORLDWIDE"
+  ],
+  "timezones": [
+   "EUROPE",
+   "US"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "conflict",
+  "conflict": true,
+  "conflict_reasons": [
+   "sources disagree on whether India is allowed: source 1=no, source 2=yes"
+  ],
+  "per_source": [
+   {
+    "allowed": [
+     "BR",
+     "CA",
+     "EUROPE",
+     "LATAM",
+     "UK",
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   },
+   {
+    "allowed": [
+     "CA",
+     "EUROPE",
+     "LATAM",
+     "UK",
+     "US",
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "EUROPE",
+     "US"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "searchatlas": {
+  "allowed": [
+   "BR",
+   "CA",
+   "CO",
+   "HR",
+   "HU",
+   "PT",
+   "WORLDWIDE"
+  ],
+  "timezones": [
+   "US_EAST"
+  ],
+  "engagement": [
+   "CONTRACTOR"
+  ],
+  "visa": "unknown",
+  "india": "conflict",
+  "conflict": true,
+  "conflict_reasons": [
+   "sources disagree on whether India is allowed: source 1=yes, source 2=no"
+  ],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "US_EAST"
+    ],
+    "engagement": [
+     "CONTRACTOR"
+    ],
+    "visa": "unknown"
+   },
+   {
+    "allowed": [
+     "BR",
+     "CA",
+     "CO",
+     "HR",
+     "HU",
+     "PT"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "tether": {
+  "allowed": [
+   "WORLDWIDE"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   },
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "flexibits": {
+  "allowed": [
+   "WORLDWIDE"
+  ],
+  "timezones": [
+   "CET",
+   "US_PACIFIC",
+   "US_PACIFIC..CET"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "US_PACIFIC..CET"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   },
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "CET",
+     "US_PACIFIC"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "sourcegraph": {
+  "allowed": [
+   "CA",
+   "EUROPE",
+   "US",
+   "WORLDWIDE"
+  ],
+  "timezones": [
+   "EUROPE",
+   "US_EAST",
+   "US_PACIFIC"
+  ],
+  "engagement": [
+   "EOR"
+  ],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   },
+   {
+    "allowed": [
+     "CA",
+     "EUROPE",
+     "US",
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "EUROPE",
+     "US_EAST",
+     "US_PACIFIC"
+    ],
+    "engagement": [
+     "EOR"
+    ],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "prairielearn": {
+  "allowed": [
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "no",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "no"
+   }
+  ]
+ },
+ "sidekick": {
+  "allowed": [
+   "US"
+  ],
+  "timezones": [
+   "US"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "US"
+    ],
+    "timezones": [
+     "US"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "pagnos": {
+  "allowed": [
+   "DE"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "no",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "DE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "no"
+   }
+  ]
+ },
+ "checkly": {
+  "allowed": [
+   "EUROPE",
+   "LATAM",
+   "US"
+  ],
+  "timezones": [
+   "EUROPE",
+   "US_EAST",
+   "UTC+1..UTC+2",
+   "UTC-3..UTC+3"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "EUROPE",
+     "LATAM",
+     "US"
+    ],
+    "timezones": [
+     "EUROPE",
+     "US_EAST",
+     "UTC+1..UTC+2",
+     "UTC-3..UTC+3"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "mainmatter": {
+  "allowed": [
+   "EUROPE"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "EUROPE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "opensanctions": {
+  "allowed": [
+   "WORLDWIDE"
+  ],
+  "timezones": [
+   "CET\u00b13"
+  ],
+  "engagement": [
+   "FREELANCE"
+  ],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "CET\u00b13"
+    ],
+    "engagement": [
+     "FREELANCE"
+    ],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "river": {
+  "allowed": [
+   "EUROPE",
+   "LATAM",
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "EUROPE",
+     "LATAM",
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "spade": {
+  "allowed": [
+   "CA",
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "CA",
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "brilliant": {
+  "allowed": [
+   "CA",
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "CA",
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "relevant": {
+  "allowed": [
+   "CA",
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "CA",
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "solace": {
+  "allowed": [
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "no",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "no"
+   }
+  ]
+ },
+ "curai": {
+  "allowed": [
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "discord": {
+  "allowed": [
+   "US"
+  ],
+  "timezones": [
+   "US_PACIFIC"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "US"
+    ],
+    "timezones": [
+     "US_PACIFIC"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "enveritas": {
+  "allowed": [
+   "WORLDWIDE"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "studyturtle": {
+  "allowed": [
+   "NON_US"
+  ],
+  "timezones": [
+   "US_PACIFIC"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "NON_US"
+    ],
+    "timezones": [
+     "US_PACIFIC"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "rinse": {
+  "allowed": [
+   "CA",
+   "US"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "CA",
+     "US"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "allgravy": {
+  "allowed": [
+   "DK",
+   "EUROPE",
+   "UK"
+  ],
+  "timezones": [
+   "EUROPE"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "DK",
+     "EUROPE",
+     "UK"
+    ],
+    "timezones": [
+     "EUROPE"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "qualcomm": {
+  "allowed": [
+   "CA"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "CA"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "datamint": {
+  "allowed": [
+   "WORLDWIDE"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "seeq": {
+  "allowed": [
+   "WORLDWIDE"
+  ],
+  "timezones": [
+   "US_PACIFIC"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "yes",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "WORLDWIDE"
+    ],
+    "timezones": [
+     "US_PACIFIC"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "vistulo": {
+  "allowed": [
+   "PL",
+   "RO"
+  ],
+  "timezones": [
+   "US_EAST"
+  ],
+  "engagement": [
+   "B2B"
+  ],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "PL",
+     "RO"
+    ],
+    "timezones": [
+     "US_EAST"
+    ],
+    "engagement": [
+     "B2B"
+    ],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "modash": {
+  "allowed": [
+   "EUROPE"
+  ],
+  "timezones": [],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "EUROPE"
+    ],
+    "timezones": [],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "hospitable": {
+  "allowed": [
+   "EUROPE",
+   "US"
+  ],
+  "timezones": [
+   "EMEA",
+   "EUROPE",
+   "US",
+   "US_EAST"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "EUROPE",
+     "US"
+    ],
+    "timezones": [
+     "EMEA",
+     "EUROPE",
+     "US",
+     "US_EAST"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "eventfirst": {
+  "allowed": [
+   "EUROPE"
+  ],
+  "timezones": [
+   "CET"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "EUROPE"
+    ],
+    "timezones": [
+     "CET"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "plantingspace": {
+  "allowed": [
+   "EUROPE"
+  ],
+  "timezones": [
+   "EUROPE"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "EUROPE"
+    ],
+    "timezones": [
+     "EUROPE"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ },
+ "lokker": {
+  "allowed": [
+   "CA",
+   "EUROPE",
+   "US"
+  ],
+  "timezones": [
+   "UTC-8..UTC+2"
+  ],
+  "engagement": [],
+  "visa": "unknown",
+  "india": "no",
+  "conflict": false,
+  "conflict_reasons": [],
+  "per_source": [
+   {
+    "allowed": [
+     "CA",
+     "EUROPE",
+     "US"
+    ],
+    "timezones": [
+     "UTC-8..UTC+2"
+    ],
+    "engagement": [],
+    "visa": "unknown"
+   }
+  ]
+ }
+}

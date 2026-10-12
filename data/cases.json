@@ -1,0 +1,807 @@
+[
+ {
+  "id": "matcha-fse",
+  "company": "Matcha (Founding SWE)",
+  "sources": [
+   {
+    "name": "Matcha job page /apply/fse",
+    "url": "https://matcha.fm/apply/fse",
+    "text": "Founding Full-stack Software Engineer Full-time · Fully remote (US, Canada, Europe, UK, Brazil, LATAM) · $150k/year to $200k/year and 1% to 3% equity We're looking for a mission-driven engineer who loves their craft and thrives in fast-moving startup environments. Someone who can ship fast and think deeply about the product. What You'll Do Own the full stack from data processing and ingestion to core logic, UI etc. Lead product direction and roadmap based on customer feedback and needs Apply AI effectively to real world use cases Use data to understand what works, iterate quickly, and double down on wins Iterate fast and ship with good velocity You Proven track record of owning products end to end and shipping with good velocity We are stack agnostic: strong experience in any modern stack (Rails, Elixir, Go, etc.) works, as long as you are open to picking up ours (TypeScript, React) Hands-on AI experience You can work through ambiguous situations and keep moving forward Have worked remotely in the past Good product Intuition Worked at a startup or scaleup before 0 to 1 building experience Experience is not important as long as you have 1+ years of proven track record building products Compensation and Benefits Compensation: $150k/year to $200k/year and 1% to 3% equity Unlimited PTO Fully remote Remote setup ok with B2B contract or EOR Interview Process 30min chat with the founder > 45min system design interview > Offer Apply Email LinkedIn URL Resume Upload resume Apply Founding Full-stack Software Engineer | Matcha"
+   },
+   {
+    "name": "Founder HN post (fiiico, 2026-10-12)",
+    "url": "https://news.ycombinator.com/item?id=50056667",
+    "text": "Matcha.fm | REMOTE (Worldwide: US / Canada / Europe / UK / LATAM) | Full-time | https://matcha.fm\nI'm a Canadian repeat founder working on agents that cut the noise in large dataset search.\nLooking for a great builder (founding software engineer) and a great marketer both with a track record of virality and driving product distribution.\nFully remote anywhere in the world, with some US / EU timezone overlap.\nThe same salary regardless of where you live\nNo micromanagement, no unnecessary calls\nCalm, low-distraction culture to do your best work\nFounding Software Engineer : https://matcha.fm/apply/fse\nFounding Marketer : https://matcha.fm/apply/marketing"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "BR",
+    "CA",
+    "EUROPE",
+    "LATAM",
+    "UK",
+    "US",
+    "WORLDWIDE"
+   ],
+   "timezones": [
+    "EUROPE",
+    "US"
+   ],
+   "engagement": [
+    "B2B",
+    "EOR"
+   ],
+   "visa": "unknown",
+   "india": "conflict",
+   "conflict": true
+  },
+  "split": "dev"
+ },
+ {
+  "id": "matcha-ai",
+  "company": "Matcha (Founding AI Eng)",
+  "sources": [
+   {
+    "name": "Matcha job page /apply/ai",
+    "url": "https://matcha.fm/apply/ai",
+    "text": "Founding AI Engineer (ML/Data) Full-time · Fully remote (US, Canada, Europe, UK, Brazil, LATAM) · $150k to $200k per year, 1% to 3% equity We're looking for an AI engineer who can own the full stack from raw data to shipped models. Someone who is strong across ML, data infrastructure, and LLM-powered features, and knows how to move fast without cutting corners on reliability. What You'll Do Build and improve the matching engine using ML models and embeddings Design and maintain data pipelines that feed model training and product features Ship LLM-powered features into the product using frontier models Own evals and monitoring so models don't silently degrade Work directly with founders to identify the highest-leverage AI bets You Proven track record across ML, data engineering, or AI systems in production Strong Python and SQL fundamentals Experience with LLM APIs, embeddings, RAG, or agentic patterns Comfortable owning data pipelines alongside modeling work Startup or founding team experience preferred Previous founder a bonus Experience is not important as long as you have 1+ years of proven track record building products Apply Email LinkedIn URL Resume Upload resume Apply Founding AI Engineer (ML/Data) | Matcha"
+   },
+   {
+    "name": "Founder HN post (fiiico, 2026-10-12)",
+    "url": "https://news.ycombinator.com/item?id=50056667",
+    "text": "Matcha.fm | REMOTE (Worldwide: US / Canada / Europe / UK / LATAM) | Full-time | https://matcha.fm\nI'm a Canadian repeat founder working on agents that cut the noise in large dataset search.\nLooking for a great builder (founding software engineer) and a great marketer both with a track record of virality and driving product distribution.\nFully remote anywhere in the world, with some US / EU timezone overlap.\nThe same salary regardless of where you live\nNo micromanagement, no unnecessary calls\nCalm, low-distraction culture to do your best work\nFounding Software Engineer : https://matcha.fm/apply/fse\nFounding Marketer : https://matcha.fm/apply/marketing"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "BR",
+    "CA",
+    "EUROPE",
+    "LATAM",
+    "UK",
+    "US",
+    "WORLDWIDE"
+   ],
+   "timezones": [
+    "EUROPE",
+    "US"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "conflict",
+   "conflict": true
+  },
+  "split": "dev"
+ },
+ {
+  "id": "searchatlas",
+  "company": "Search Atlas",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49931746",
+    "url": "https://news.ycombinator.com/item?id=49931746",
+    "text": "Search Atlas | Product Engineer (Product Manager role, not a Full-stack role) | REMOTE (anywhere, EST hours) | Full-time contractor | $23-$34 USD/hour | https://careers.searchatlas.com/jobs/599248-product-engineer...\nWe're ~160 people, fully remote, building an AI marketing platform. Our main product is OTTO, which runs a site's SEO on its own - it reads live search data and pushes the technical and on-page fixes itself, nobody queues them up. Around that we've got ad automation for Google and Meta, GBP management for multi-location brands, content gen, and LLM visibility tracking (whether ChatGPT and co are citing you). Autotrader, Hyundai, P&G, Vendasta are some of our customers.\nWork happens in pods, 1 PM and 2-4 engineers. You own your pod's roadmap and ship it with them, no veteran PM signing off on your specs first. That's the part most PM roles won't hand you.\nLooking for 3+ years PM in B2B SaaS with an actual technical background - eng or QA before PM, or a PM who's been getting into the codebase themselves. You should be able to read Python and TS, write your own SQL, find your way around an API, and not need an engineer to tell you what a stack trace says. We're Django on the back, React/Next on the front. QA is yours end to end including release sign-off, people tend to underestimate that bit. And you're already using Claude Code or similar daily, not \"open to it\".\nA few notes before you apply:\n- Experience: we're looking for people with a few years of hands-on product or engineering work behind them. The role is autonomous from the first week, so we need you ready to take the wheel.\n- Recruiting agencies: we hire in-house and manage every application ourselves, so there's no need to send candidates or reach out about partnerships. Thank you for understanding!\n- If your stack matches, please do reach out. Django/DRF/Celery/Postgres with React/Next, Python automation work around SEO: if that's your day-to-day and you're using AI coding tools (Claude Code, Codex, Cursor, whatever you like) in your real workflow, I want to hear from you. Don't talk yourself out of it because the title isn't an exact fit; tell me what you've built.\nRecruitment process is screen with me, a take-home that runs about 75 mins, technical round with one of our senior PMs, then a call with our Director of Product (who you'd report to). I usually come back to people within 2 business days.\nOur ATS forces us to list specific ywhere as long as you can do EST\nhours, so apply even if yours isn't\nApply at the link and mention HN somewhere, in your pitch or wherever it fits. joao.pedro@searchatlas.com if you need me, though the link's faster.\nP.S: Not a PM, or the PM role isn't quite your thing? Have a look at everything else we have open at https://careers.searchatlas.com and apply directly to the role that suits you best (preferred route). If you're not sure which one that is, email me with a short line on what you do and I'll point you to the right one."
+   },
+   {
+    "name": "Search Atlas careers page",
+    "url": "https://careers.searchatlas.com/jobs/599248-product-engineer-pm",
+    "text": "Department Product Locations Brazil, Canada, Colombia, Croatia, Hungary, Portugal, Medellin, Colombia Salary $23.08 - $34.62/hour Contact Joao Pedro Technical Recruiter – People Operations Apply for this job Product · Multiple locations Product Engineer (PM) Own product strategy, specs, and QA in a hands-on PM role. Lead a small, remote pod, blend technical depth with real customer impact. Loading"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "BR",
+    "CA",
+    "CO",
+    "HR",
+    "HU",
+    "PT",
+    "WORLDWIDE"
+   ],
+   "timezones": [
+    "US_EAST"
+   ],
+   "engagement": [
+    "CONTRACTOR"
+   ],
+   "visa": "unknown",
+   "india": "conflict",
+   "conflict": true
+  },
+  "split": "dev"
+ },
+ {
+  "id": "tether",
+  "company": "Tether",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49924581",
+    "url": "https://news.ycombinator.com/item?id=49924581",
+    "text": "Tether | AI Harness Engineer | REMOTE (Worldwide) | Full-time\nWe're looking for an AI Harness Engineer to build local AI systems combining agentic AI with P2P technology.\nLooking for strong JavaScript/TypeScript experience and hands-on work with AI/LLMs, agent harnesses, local inference, and/or P2P/distributed systems. Open-source experience is a plus.\nApply: https://careers.tether.io/o/ai-harness-engineer-100-remote-w..."
+   },
+   {
+    "name": "Tether careers page",
+    "url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide",
+    "text": "AI Harness Engineer (100% Remote, Worldwide) Remote Copenhagen , Hovedstaden , Denmark • Stockholm , Södermanlands län , Sweden • Wien , Wien , Austria • +2 more Engineering Job details Apply Job description Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT , relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services. But that’s just the beginning: Tether Power: Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities. Tether Data: Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communications with cutting-edge solutions like KEET , our flagship app that redefines secure and private data sharing. Tether Education : Democratizing access "
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "WORLDWIDE"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "yes",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "flexibits",
+  "company": "Flexibits",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49922803",
+    "url": "https://news.ycombinator.com/item?id=49922803",
+    "text": "Flexibits | Android Software Engineer | Remote | Full-time https://flexibits.com/jobs\nWe make Fantastical and Cardhop, award-winning calendar and contacts apps for macOS, iOS, visionOS, and Windows. We are a small, fully-remote company spread across the US and Europe, and welcome anyone from around the world. We prefer candidates that are in time zones between US Pacific Time and Central European Time.\nWe're looking for an enthusiastic and experienced Android developer to help bring the joy of Flexibits apps to Android. This will include learning the ins and outs of Fantastical and bringing its magic to Android, all the way from the natural language parser to the beautiful user interface.\nTech stack: Kotlin, C#, Objective-C, Swift, AppKit, UIKit, SwiftUI, C, C++."
+   },
+   {
+    "name": "Matcha company page",
+    "url": "https://matcha.fm/company/flexibits",
+    "text": "Flexibits careers: remote jobs, culture and where they hire The small, fully remote team behind Fantastical and Cardhop, independent since 2011 and hiring across the US, Europe, Canada and South Africa. Team of 13 Hiring remotely worldwide, US Pacific to CET time zones preferred What is Flexibits ? Flexibits makes Fantastical, the calendar app known for its natural language parser (type \"Lunch with Sara on Friday at noon\" and the event just appears), and Cardhop, its contacts companion. Fantastical launched on the Mac in 2011 and iPhone in 2012, moved to a subscription model with Fantastical 3 in 2020, and by 2022 had millions of registered users. In October 2024 the company shipped Fantastical for Windows at full feature parity with the Mac app, its first product outside the Apple ecosystem. Flexibits Premium bundles Fantastical and Cardhop across devices, and the company also sells scheduling features (Openings) to teams. The company was founded in 2011 by Michael Simmons and Kent Sutherland and has stayed small and independent for its whole life; no funding rounds have ever been announced. It is a fully remote team working across the US, Europe (UK, Germany, Italy and Greece), Canada and South Africa, and its jobs page says it welcomes people from around the world while preferring time zones between US Pacific and Central European Time. Who founded Flexibits Michael Simmons , Co-founder and CEO . Nearly 15 years in the Apple software world before starting Flexibits in 2011, with earlier positions at Apple itself, Ambrosia Software and Cultured Code (makers of Things). He has been the public face of Fantastical since the first Mac release and still runs the company as CEO. Kent Sutherland , Co-founder . The engineer behind Flexibits' natural language parsing engine, t"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "WORLDWIDE"
+   ],
+   "timezones": [
+    "US_PACIFIC..CET"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "yes",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "sourcegraph",
+  "company": "Sourcegraph",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49927984",
+    "url": "https://news.ycombinator.com/item?id=49927984",
+    "text": "Sourcegraph | Remote | Full-Time | SWE, Tech Lead, ML Engineer, Product Manager, Product Marketing Manager | https://sourcegraph.com\nSourcegraph is building the context layer for AI-powered software development. As AI accelerates code creation, we help engineering teams understand, navigate, and safely change large codebases.\nOur products, including Code Search, Deep Search, MCP, and Agentic Batch Changes, give developers and AI agents cross-repository context and enable coordinated code changes across hundreds of repositories. Engineering teams at companies like Stripe, Reddit, and Leidos use Sourcegraph to ship faster with greater confidence.\nIf you want to build the infrastructure that lets every engineering team - and every agent they deploy - operate on their codebase with confidence, join us.\nSourcegraph is backed by Sequoia, a16z, Redpoint, and Goldcrest.\nApply here: https://grnh.se/0572f98b4us"
+   },
+   {
+    "name": "Matcha company page",
+    "url": "https://matcha.fm/company/sourcegraph",
+    "text": "Where does Sourcegraph hire remotely? Sourcegraph is an all-remote company that hires almost anywhere in the world, with a San Francisco business address for mail and occasional on-site work. Current openings prefer candidates in the United States (Eastern or Pacific time), Europe and Canada, two roles are open worldwide, and people outside the US are employed through its UK and Canada entities or an employer of record. United States : 9 open roles Europe : 3 open roles Worldwide : 2 open roles Canada : 1 open role Open remote jobs at Sourcegraph Describe your next role, cut the noise Compliance Manager [IC3] at Sourcegraph 5d ago $103K–$138K / year Own end-to-end GRC/compliance for a code intelligence SaaS, leading SOC 2 and ISO 27001 audits, ISMS and risk processes; 20 hrs/week overlap w"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "CA",
+    "EUROPE",
+    "US",
+    "WORLDWIDE"
+   ],
+   "timezones": [
+    "US_EAST",
+    "US_PACIFIC"
+   ],
+   "engagement": [
+    "EOR"
+   ],
+   "visa": "unknown",
+   "india": "yes",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "prairielearn",
+  "company": "PrairieLearn",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49922584",
+    "url": "https://news.ycombinator.com/item?id=49922584",
+    "text": "PrairieLearn (Remote US) — Full-Stack Software Engineer — TypeScript / Postgres / React / AI\nPrairieLearn (https://www.prairielearn.com) is an open-source assessment platform used by universities across the US (Berkeley, Princeton, Michigan, Illinois, and others). We power mastery-based learning and large-scale exams.\nWe’re a small, profitable, early-stage company (bootstrapped, no VC) that is growing quickly. Our users love us and we have very high retention and rapid spread through word of mouth. As an early-stage hire, you’ll work across the stack and enjoy meaningful ownership from day one.\nTech we use: Node.js / TypeScript backend, Postgres, AWS, React. We’re also developing AI tooling, including LLM agents to help instructors create content, and vision-language models to help grade student work. PrairieLearn is open core: https://github.com/PrairieLearn/PrairieLearn\nDetails:\n- Location: Remote (US only)\n- Salary: $100k-$180k depending on experience\n- Benefits: Stock options (0.5% - 1.5%), unlimited PTO, flexible hours\n- Role: Full-time. (We’re not able to sponsor visas at this time.)\nApply at https://www.prairielearn.com/jobs-ashby?utm_source=YeEJ5MAKk..."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "no",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "sidekick",
+  "company": "Sidekick Labs",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49922609",
+    "url": "https://news.ycombinator.com/item?id=49922609",
+    "text": "Sidekick Labs | Senior SWE, R&D Engineer, Intelligence Engineer | REMOTE (US Timezones) | Full-time | $170k to $230k Base + Equity + Health\nSidekick builds AI security software for enterprises. Our sensors observe AI behavior and use in situ. From those observations, our reasoning pipeline produces an application inventory and a risk picture, allowing us to provide real-time intervention and coaching right when it matters.\nCompensation: base salary scaled to experience, meaningful early-stage equity, and 100% covered health insurance for you and your immediate family\nWe are a highly senior team. Most of us have been founders or on early founding teams, so we operate with high ownership. We expect you to have a real, current AI-assisted development practice. Our system spans several languages, and we expect you to use AI tools to quickly navigate unfamiliar parts of the codebase so you can comfortably own problems end-to-end across a broad stack.\nWe are hiring for three roles:\n- Senior Software Engineer: You will work across our event-driven architecture. You'll write Go and Python backend services and touch endpoint-deployed browser and desktop components. You need to be comfortable developing in a multi-tenant, microservice-driven SaaS architecture and understand typical scale and security implications for such products.\n- R&D Engineer: This is not an open-ended research function. You will take ambiguous feasibility questions tied to our roadmap and return defensible answers inside a week. You'll build handoff-ready prototypes, then shift into engineering mode to personally drive them through to production. You will also define operational envelopes and degradation boundaries, and rigorously deprecate infeasible ideas with documented rationale to avoid future re-litigation.\n- Intelligence and Data Processing Engineer: This role is for someone who loves real browser and desktop forensics. You'll use dev tools and debuggers as your primary instruments. Expect to be reading minified code to find where state lives and analyzing network logs to understand undocumented APIs. You will figure out how AI products work and build the prototyping and automation to maintain our software inventory.\nTo apply:\nSend an email to eric+hn@sidekicklabs.com with the role in the subject. Include a PDF of your resume, a quick sentence or two about a tough technical problem you've solved recently, and links to your GitHub, personal site, and/or LinkedIn.\nI'm Eric, VP of Technology, and I will personally read every email sent to the HN subaddress. You can view my background here: https://www.linkedin.com/in/three-two-one\nhttps://sidekicklabs.com"
+   }
+  ],
+  "gold": {
+   "allowed": [],
+   "timezones": [
+    "US"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "unknown",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "pagnos",
+  "company": "PAGNOS",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49922616",
+    "url": "https://news.ycombinator.com/item?id=49922616",
+    "text": "PAGNOS | Cloud Engineer, AWS Serverless (TypeScript/Node.js) | REMOTE (Germany) | Full-time | €75k–80k | business-fluent German required\nWe build serverless applications on AWS for clients and for our own SaaS products. On client projects, we work directly with their developers and help them understand and maintain what we build.\nYou’ll write backend code in TypeScript/Node.js, build APIs with Lambda and API Gateway, model data in DynamoDB, and design event-driven workflows and integrations. Infrastructure lives in code using AWS CDK, with CI/CD pipelines for builds and deployments. You’ll help decide how systems are designed and take testing, observability and security into account as you build. There’s some React/Next.js work too.\nWe’re looking for practical experience building AWS serverless applications with TypeScript/Node.js, including infrastructure as code, CI/CD and event-driven design. The role includes working through requirements and technical decisions with clients, so you should be comfortable with that.\nWe use coding agents daily and expect you to use them too, and to share useful approaches with other developers. AWS serverless development is the main focus of the role.\nWe’re remote-first, use Scrum, and work with code reviews, pair programming, and unit and integration tests. We meet in person regularly, sometimes in Cologne, sometimes in Austria or Mallorca. We plan travel around family commitments.\nYou must be based in Germany and speak business-fluent German and good English. We don’t offer visa sponsorship.\n€75k–80k, 32 days of vacation, hardware of your choice, and company-paid AI tool subscriptions.\nSend your CV to recruiting@pagnos.com – no cover letter needed. Questions before applying are welcome.\nFull job ad (German): https://germantechjobs.de/jobs/PAGNOS-GmbH-Cloud-AI-Engineer..."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "DE"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "no",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "checkly",
+  "company": "Checkly",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49922769",
+    "url": "https://news.ycombinator.com/item?id=49922769",
+    "text": "Checkly | https://www.checklyhq.com | Senior Product Engineer, Product Manager, Senior Sales Engineer, Solutions Engineer | REMOTE (Europe / US Eastern) | Full-time\nThe best developers don't wait for a customer to tell them something's broken. They catch it first, in the pull request, in staging, or in the checkout flow at 3am, before a single user notices. That instinct is Checkly's whole reason to exist. We give developers and their agents the tools to own reliability the way they own their code: monitoring defined as code, powered by OpenTelemetry and Playwright, versioned and reviewed like everything else they ship. From pull request to post-mortem, in one place.\nOpen roles:\n- Senior Product Engineer (DevTools & AI reliability) - remote, UTC-3 to UTC+3\n- Product Manager (DevTools & AI Reliability) - remote UTC-3 to UTC+3 \n- Senior Sales Engineer - remote Europe (UTC+1 to UTC+2) \n- Sales Engineer - remote US, Eastern time zone\nAll roles, compensation and applications: https://jobs.ashbyhq.com/checkly?utm_source=hn"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "EUROPE",
+    "US"
+   ],
+   "timezones": [
+    "US_EAST",
+    "UTC+1..UTC+2",
+    "UTC-3..UTC+3"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "mainmatter",
+  "company": "Mainmatter",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49922899",
+    "url": "https://news.ycombinator.com/item?id=49922899",
+    "text": "Mainmatter (https://mainmatter.com/rust-consulting/) | REMOTE (EU) | Lead Rust Engineering Consultant | Full-time | 100–140k€\nMainmatter (https://mainmatter.com), the company behind EuroRust (https://eurorust.eu), is looking for an exceptional Rust engineering consultant to lead our team. You'll be supporting international clients like Google, BMW, and Redis in adopting Rust: reviewing their codebase, recommending and implementing improvements, driving codebase migrations to Rust, and training their team on advanced Rust concepts.\n- Must be located in the EU\n- Excellent Rust skills, including several years of using Rust in a production environment\n- Excellent engineering skills, ideally 10+ years of professional experience\n- Excellent English communication skills\nThe ideal candidate has spoken at conferences, ran workshops, written articles etc.\nSee the full job description and contact information here: https://mainmatter.notion.site/Lead-Rust-Engineering-Consult..."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "EUROPE"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "opensanctions",
+  "company": "OpenSanctions",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49922910",
+    "url": "https://news.ycombinator.com/item?id=49922910",
+    "text": "OpenSanctions | Product Engineer | Berlin, Germany / REMOTE (CET ±3 preferred) | Freelance / employment\nOpenSanctions is a small, bootstrapped company building an open source database of sanctioned people and companies, politicians, and other entities of public interest. Journalists use it for investigations; hundreds of businesses use it for compliance screening.\nI'm looking for a product engineer to own the systems around our commercial product: customer signup and lifecycle management, billing, reporting and analytics, and tools for our support team. You'd work across Python, SQL, and React/Next.js. You'll be empowered to decide what to build, working with the people who use these systems. We hope to ship improvements continuously and see what works quickly.\nWe're remote first, with a desk in Berlin if you want one. This is a freelance role with an option to go for employment. We're reviewing applications on a rolling basis. Not considering agencies.\nDetails: https://www.opensanctions.org/docs/company/jobs/2026-09-prod...\nPlease apply through the form linked in the job description - no cover letter, just share some basic facts please :)"
+   }
+  ],
+  "gold": {
+   "allowed": [],
+   "timezones": [
+    "CET±3"
+   ],
+   "engagement": [
+    "FREELANCE"
+   ],
+   "visa": "unknown",
+   "india": "unknown",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "river",
+  "company": "River",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49923010",
+    "url": "https://news.ycombinator.com/item?id=49923010",
+    "text": "River | Staff Engineers (Elixir) | NYC or REMOTE (US, Europe, South America) | Full-Time | $200K-$250K + equity | https://jobs.ashbyhq.com/river?utm_source=Zp9nJyqvd4\nI'm Alex, founder and CEO of River. I also wrote the first line of code and still ship PRs.\nRiver is a client-first Bitcoin-only financial institution building the financial app people use every day to save in bitcoin and spend in dollars. We custody over 33,000 BTC, serve individuals and businesses across the U.S., and are profitable. We publish cryptographic proof of reserves monthly and our company financials annually.\nHere's what our engineering team is working on:\n  - Real-time Bitcoin and USD payments, trading, and settlement on an Elixir monolith with a unified GraphQL API\n  - Next-generation Bitcoin custody with quorum signing, key ceremonies, and geo-redundant infrastructure\n  - Scaling our ML/AI systems (Python, PyTorch, XGBoost, LLMs) to automate operations and tackle fraud/risk\n  - A ground-up React and React Native rewrite of our consumer app\n  - Porting our Lightning Network infrastructure from Go into Elixir\n\nWe're hiring:\n  - Staff Software Engineer (Elixir) | $200K-$250K\nApply at https://jobs.ashbyhq.com/river/610f652b-bdb9-4d82-9973-680ba..."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "EUROPE",
+    "LATAM",
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "spade",
+  "company": "Spade",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49923320",
+    "url": "https://news.ycombinator.com/item?id=49923320",
+    "text": "Spade | Multiple Engineering, AI/ML Data Science, Revenue, and Ops Roles | ONSITE NYC or REMOTE (US/Can) | $130-240K+ (depending on role/level) + equity\nSpade is the data and AI platform for modern finance. We take messy transaction data and turn it into structured, verified records — with a platform, models, and tooling that help our customers use it everywhere it matters.\nWe're looking for extraordinary builders to play a foundational role in a company designed for scale:\n  - Senior Platform Security Engineer\n\n  - Fullstack Engineer (Mid Level)\n\n  - Backend Engineer (Mid Level)\n\n  - Data Scientist - AI/ML (Mid & Sr Levels)\n\n  - Product Performance Analyst \n\n  - Account Executive - Enterprise, Mid Market, Fintech\n\n  - Account Manager - Enterprise\n\n  - Product Marketing Manager\n\n  - Executive Assistant to CEO/COO\n\nWe're well-funded by top investors (YC/a16z/OAK), and known for building intentional, inclusive culture. We offer competitive compensation (salary + equity) and comprehensive benefits. NYC roles are hybrid (2 days/week in our dog-friendly Flatiron office).\nIf interested, please apply here (https://spade.com/careers/) and mention this post."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "CA",
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "brilliant",
+  "company": "Brilliant.org",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49923870",
+    "url": "https://news.ycombinator.com/item?id=49923870",
+    "text": "Brilliant.org | Senior/Staff Software Engineer (Interactives) | Remote (North America), SF, NYC | Full-time | $180k-$250k | https://brilliant.org\nIn a world of cognitive offloading, Brilliant's AI tutor gets kids to actually think. The graphical canvas is interactable by both the learner and their tutor, leading to pedagogically-rich interactions.\nWe're hiring an interactive-focused engineer to craft the building blocks that power this experience. Each interactive exposes an API used by learning designers, our authoring agents, and the tutor itself. And every configuration those APIs can produce has to be a correct, solvable, meaningful puzzle. It's a tricky technical problem with a big payoff for our learners.\nEngineers at Brilliant think about both \"building the right thing\" AND \"building the thing right\" while pursuing high standards of excellence for ourselves, our product, and our codebase.\nIf you'd like to do the best work of your career while changing how the world learns, apply here: https://brilliant.org/careers."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "CA",
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "relevant",
+  "company": "Relevant Healthcare",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49923964",
+    "url": "https://news.ycombinator.com/item?id=49923964",
+    "text": "Relevant Healthcare | Lead Engineer | Remote (US/Canada only) | Full-time\nRelevant builds a data platform that helps safety-net healthcare providers deliver better care using data from their electronic health records. Our customers are non-profit clinics called Community Health Centers. You can read more about them, us, and the role on our jobs page: https://relevant.healthcare/jobs/\nWe're a small team (~25 overall). We're bootstrapped (no external capital whatsoever, VC or otherwise) and profitable. We've got a modern tech stack (Rails, Typescript, Go, React, GraphQL, d3) and a healthy approach to both tech debt and work/life balance… and we’re also a very nice group of people that get to work on interesting problems for some of the few unimpeachably good actors in healthcare!"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "CA",
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "solace",
+  "company": "Solace Health",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49924327",
+    "url": "https://news.ycombinator.com/item?id=49924327",
+    "text": "Solace Health | Multiple Engineering Roles | REMOTE (US) | Full-time | No visa sponsorship offered\nWe're hiring Typescript Engineers (full-stack, backend, and platform) on all our core groups.\nWe're Solace Health. In 4.5 years, we've provided free healthcare advocacy to over 200K patients on Medicare, and just begun opening access to everyone in the US. We exist to make sure nobody in the US has to navigate their healthcare journey alone. We hit Unicorn status after our February Series-C led by IVP, bringing us to $207M raised and a $1B valuation. Compensation and benefits are highly competitive and include equity.\nOpen Roles\n- Senior Full Stack Engineer ($150k-$200k)\n- Senior Backend Engineer ($150k-$200k)\n- Staff Software Engineer ($200k-$225k, Fullstack or Backend lean)\n- Senior Platform Engineer ($150k-$175k)\n- Technical Lead ($200k-$230k, player/coach people managers)\nTech Stack\nTypescript with ReactJS and NodeJS plus NestJS, PostgreSQL, GCP, SQL, TypeORM, shadcn for our UI Library and GCP. K8s for platform.\nAPPLY HERE\nhttps://jobs.ashbyhq.com/Solace?utm_source=x4QJmBQEg7\nIf you want to build fast with high autonomy and believe in strong typing as much as we do, we'd love to hear from you!"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "no",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "curai",
+  "company": "Curai",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49924974",
+    "url": "https://news.ycombinator.com/item?id=49924974",
+    "text": "Curai | Remote (US) | Full-time | https://curaihealth.com\nWe're building AI agents to expand access to affordable, and high quality healthcare. We run a vertically integrated primary and urgent care clinic and are actively building an agentic platform focused improving longitudinal care outcomes.\nWe're hiring engineers to work across patient and clinician experiences, production AI systems, and the platforms that help people discover and access care.\n* Sr Software Engineer, Full-Stack: https://jobs.lever.co/curai/46e0dd2f-c1dd-4ca2-9095-5b45f477...\n* Sr Software Engineer, Agentic AI: https://jobs.lever.co/curai/cd31b67b-d83c-466a-ac55-cfa4c2ec...\n* Sr Software Engineer, Marketing Platform: https://jobs.lever.co/curai/b157298e-4dc7-4594-a9c4-29f0dec4...\nTech stack: Agents SDK, Braintrust, Python, React, React Native/Expo, AWS, Postgres, DynamoDB, Docker, Terraform."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "discord",
+  "company": "Discord",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49925063",
+    "url": "https://news.ycombinator.com/item?id=49925063",
+    "text": "Discord | Senior Software Engineer, Application Security | REMOTE (US West Coast) or San Francisco, CA | $196K-$245K base + equity\nDiscord is where communities and friend groups spend time together, on desktop, mobile, and now more and more inside games and third-party apps built on our platform. That surface area, plus a huge, engaged, occasionally adversarial user base, makes application security a genuinely hard and interesting problem here.\nWe are hiring a Senior Software Engineer to join the Application Security team. This is hands-on product engineering: building security features that protect user accounts, strengthening authentication and session security, and improving security-critical services. You will work directly with product teams to ship user-facing account security tools and address emerging threats.\nStack: Python primarily, some TypeScript/React, some Rust, occasional JavaScript. Runs on GCP.\nLooking for: hands-on AppSec experience (not just compliance-flavored security), comfort reading and writing code across languages, experience shipping production software, and sound judgment on prioritizing real risk over checklist security. Experience with authentication, passkeys, MFA, or session management is especially relevant.\nLocation: Remote from the US West Coast. If you are in the Bay Area, our SF office is an option. Relocation to the Bay Area is not required.\nInterview process: recruiter call, coding round, HM interview, virtual onsite, decision.\nApply: https://discord.com/jobs/8656854002"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "US"
+   ],
+   "timezones": [
+    "US_PACIFIC"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "enveritas",
+  "company": "Enveritas",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49925489",
+    "url": "https://news.ycombinator.com/item?id=49925489",
+    "text": "Enveritas (YC S18, non-profit) | Backend Software Engineer | Remote (Global) | https://enveritas.org/jobs/ Enveritas is a 501(c)(3) nonprofit working on sustainability issues facing smallholder coffee farmers. We collect field data in 30+ countries and build systems for analyzing risks in coffee, cocoa, and tea supply chains (including EUDR-related deforestation checks).\n* Backend Software Engineer (Python, PostgreSQL/PostGIS, Docker, AWS, Terraform) - $135-$155k -https://enveritas.org/jobs/backend-software-eng/#10d7adef8us (worldwide remote)"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "WORLDWIDE"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "yes",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "studyturtle",
+  "company": "StudyTurtle",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49927291",
+    "url": "https://news.ycombinator.com/item?id=49927291",
+    "text": "Hiring for several roles at StudyTurtle, an edutainment brand building learning videos for Education. Our small, passionate team creates animated shows for  kids (ages 4-10) and we create our own tools to create the show faster. We want to help kids  fall in love with curiosity and real-world learning. We use custom automation to speed up everything from story writing to animation. See what we’re making: https://www.youtube.com/watch?v=c46VaM_VZGU\nOpen Roles (REMOTE, non US):\nAnimators (2D/3D or hybrid—experience with AI tools a plus) \nDirector/Writer - Writer and storyboarder, good at storyboarding, storytelling, writing, and prompting\nComputer vision engineer - Must have deep experience with SVG programming and/or computer vision\nWhy join us?\n-Fully remote, async-friendly Ship real things that impact how kids learn Fast, creative, zero-corporate-BS environment\nMust have at least 3+ hours overlap with PST hours.\n-Direct access to founders; real ownership\n-Opportunity to shape our tools and shows from the ground up\nTo apply: Email jobs [at] studyturtle.com with your background, a few sentences about why edtech is important to you, any feedback on our episodes, and why this mission excites you. Take a look at the episode we posted and give us feedback on how you would make it better. Please include links to any relevant work.\nWe are the hiring company and will reply to all genuine applicants. No recruiters, no agencies, please.\nGenre,\nco-creator\nStudyTurtle"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "NON_US"
+   ],
+   "timezones": [
+    "US_PACIFIC"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "yes",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "rinse",
+  "company": "RINSE",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49927692",
+    "url": "https://news.ycombinator.com/item?id=49927692",
+    "text": "RINSE | REMOTE (US or Canada) or San Francisco, Los Angeles, Chicago, Boston, New York City, New Jersey, Seattle, Austin, Toronto, or Washington DC | Software Engineer | Full-Time | Salary: $80k-$200k USD | https://www.rinse.com\nRinse provides dry cleaning and laundry delivery services to customers in twelve metropolitan areas in the US and Canada. We have sophisticated logistics optimization software, a polished consumer product, and firm business fundamentals. We're now over a decade old - this is a stable, yet consistently growing and innovating, company.\nOur engineering team is distributed across the United States and internationally, and has been entirely remote for years now, but a desk can be provided in the above cities if you'd prefer.\nWe're open to both newly-graduated engineers or more senior engineers, provided they meet our bar. We're particularly interested in true full-stack engineers, with strong React / Typescript / CSS skills to complement comfort in a Python / Django environment. We're also seeking engineers with experience leveraging AI to automate complex operational processes.\nThis season, we're particularly interested in new grads or junior engineers, to round out the team.\nWe're also looking for people with experience manipulating video data at scale, for computer vision applications.  Similarly, we're interested in adding people with experience building and managing MCP services.\nYou will join a high-caliber team where collaboration, honesty, and open communication are at the core of everything we do.\nSearch term bingo: Logistics, Django, Python, Optimization, React, React Native, Postgres, Mobile Engineer, Automation, Delivery, OR-tools, Forecasting, Vision, Physical AI, MCP"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "CA",
+    "US"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "allgravy",
+  "company": "All Gravy",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49928066",
+    "url": "https://news.ycombinator.com/item?id=49928066",
+    "text": "All Gravy | Senior Software Engineer (Full-stack TypeScript) | Copenhagen or London | REMOTE (European time zones) or ONSITE | Full-time\nAll Gravy is one app for running frontline teams in hospitality and retail: scheduling, shift swaps, and an AI assistant that answers staff questions and handles routine tasks. Over 2,000 restaurants and stores use it, including Dishoom, Ottolenghi, Gail's, L'Osteria and 7-Eleven. We've grown 10x in two years.\nYou own features end to end, from the manager and employee interfaces where schedules are built and shifts get picked up, to the backend services and data layers behind them. We use AI tools heavily in our own work, and we would like you to help shape how the team uses them.\nStack: TypeScript everywhere. React, React Native, Node.js, NestJS, MongoDB.\nLooking for: 5+ years of full-stack experience with React/React Native/TypeScript/Node, experience designing fault-tolerant distributed systems, and a startup or scale-up background. Bring concrete examples of how you build with AI tools today. NestJS and MongoDB are a plus.\nApply here: https://nordictechjobs.com/jobs/3MlSv0uALS"
+   }
+  ],
+  "gold": {
+   "allowed": [],
+   "timezones": [
+    "EUROPE"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "unknown",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "qualcomm",
+  "company": "Qualcomm (QEMU team)",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49928358",
+    "url": "https://news.ycombinator.com/item?id=49928358",
+    "text": "Qualcomm | Canada | Full Time | Engineer | Remote(Canada)| QEMU\nMy team is looking to hire a ~entry-level software developer to help us design and extend QEMU support [1] for the Hexagon DSP [2]. We're looking for candidates who have experience coding in C, C++ or Rust* and who aren't afraid of rolling up their sleeves and poring over disassembled code. This particular architecture is a bit more challenging than most, because it's a bit unique. It's a VLIW [3], so it's a great opportunity to learn about an interesting architecture. Millions of Hexagon DSPs are out there, most are found in DragonWing/Snapdragon/DragonFly SoCs for Laptops, Android phones, cars and more!\nWe collaborate a lot with Open Source communities like QEMU, LLVM [4], the Linux kernel [5], and more.  I love being able to work on Open Source software at my day job.\nYou can contact me directly (email addr is in my HN user link). If you don't have experience with QEMU - don't worry!  Most of us didn't have any experience with it until recently, too.\nThe rest of the team you'd work with lives mostly in Canada, EU, US.\n* Rust experience may serve the role well but we don’t (yet) have any product software in Rust.\n[1] https://github.com/qemu/qemu/tree/master/target/hexagon\n[2] https://en.wikipedia.org/wiki/Qualcomm_Hexagon\n[3] https://en.wikipedia.org/wiki/Very_long_instruction_word\n[4] https://foundation.llvm.org/sponsors/\n[5] https://www.linuxfoundation.org/our-members-are-our-superpow..."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "CA"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "datamint",
+  "company": "Datamint",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49928677",
+    "url": "https://news.ycombinator.com/item?id=49928677",
+    "text": "Datamint | Rust Systems Engineer, Browser Security | Remote (Global) | Full-time | $120k–$170k + Equity | https://datamint.xyz\nWe build high-throughput crawling and structured data extraction infra designed for AI agents and LLM pipelines.\nIf you’ve built scrapers recently, you already know the state of the market:\n- Traditional proxy providers (Bright Data, Oxylabs, Smartproxy, Proxybase) give you raw IPs or massive unparsed HTML blobs, leaving you to deal with DOM bloat, token waste, and brittle parsing pipelines.\n- Modern tools like Firecrawl or Jina made clean Markdown extraction easy for hobby setups, but they often struggle when you throw heavy SPAs, high-concurrency jobs, or hardened anti-bot walls (Cloudflare Under-Attack / Turnstile, Kasada, DataDome) at them.\n- Rolling your own Playwright / Puppeteer cluster works until target sites deploy new JA4/TLS fingerprints, and your data team ends up spending 30% of their sprints fixing broken crawlers instead of shipping product.\nWe're tackling this by combining a low-latency Rust fast-fetch engine (JA4/TLS and HTTP/2 frame emulation) with an isolated stealth browser fleet, zero-code schema validation (JSON Schema/Pydantic), and native Model Context Protocol (MCP) support.\nTrade-offs / where we fit: If you just need to curl a few static Wikipedia pages, a 10-line Python script is better and cheaper. But if you need reliable, structured data out of bot-defended sites without babying headless browsers, that's what we do.\nWe're looking for:\n1. Rust Systems Engineer: High-concurrency network I/O, Axum/Tokio, TLS/BoringSSL fingerprinting, proxy routing matrices, and low-latency data pipelines.\n2. Browser Security Engineer: Deep familiarity with browser internals (Firefox/Chromium source), canvas/WebGL/audio fingerprint evasion, CDP/WebDriver stealth, and familarity with anti-bot defenses.\nOur stack: Rust, Next.js 16/React 19, TypeScript, hardened Firefox/dwx_crawler, Linux/Xvfb, SQLite WAL/Postgres.\nIf interested, shoot an email to jobs@datamint.xyz (or founders@datamint.xyz) with your GitHub, a project you built or broke, and what you find interesting in this space. No formal cover letter needed."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "WORLDWIDE"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "yes",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "seeq",
+  "company": "Seeq",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49929522",
+    "url": "https://news.ycombinator.com/item?id=49929522",
+    "text": "Seeq | https://seeq.com | Staff/Principal Software Engineer (Full-Stack, AI, Backend, Platform) | REMOTE (Some crossover w/ PST required) | Full-time | $170k-$205k + annual cash bonus + equity. Salary range for US-based; local adjustments for other countries.\nSeeq creates cutting-edge data analytics software for industrial process data, serving sectors like pharmaceuticals, energy, and manufacturing. Our core product is a robust calculation engine capable of executing advanced math and machine learning algorithms on streaming time-series data. By leveraging generative AI, we enhance usability and accelerate outcomes for our users. We've built up a great remote culture (e.g. annual meetups, home office allowance, generous PTO, a remote office app we created to collaborate) and a dev team that enjoys tackling hard problems that make a difference for our customers (dev blog for more: https://geeq.seeq.com/).\nBe sure to mention that you came from Hacker News in your application!\nStaff/Principal AI Software Engineer (Python, RAG, LLM platforms): https://apply.workable.com/seeq/j/1B6E0A1710/\nStaff/Principal Backend Software Engineer (JVM, Postgres): https://apply.workable.com/seeq/j/CD7BA6EE7B/\nSenior Full-Stack (React, JVM, Postgres): https://apply.workable.com/seeq/j/763AE68666/\nStaff Developer Experience (Java, Infrastructure, Gradle): https://apply.workable.com/seeq/j/A966C8897D/"
+   }
+  ],
+  "gold": {
+   "allowed": [],
+   "timezones": [
+    "US_PACIFIC"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "unknown",
+   "conflict": false
+  },
+  "split": "dev"
+ },
+ {
+  "id": "vistulo",
+  "company": "Vistulo",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49930656",
+    "url": "https://news.ycombinator.com/item?id=49930656",
+    "text": "Vistulo | Senior Java, C#, React & Calypso engineers, Calypso BA/PO | REMOTE (Poland or Romania) | B2B contract, pay ranges below\nVistulo hires engineers in Poland to work on trading systems for capital-markets clients. All roles below are with a top North American bank: actively developed front-office systems (algorithmic order management and routing, FX, fixed income, and one of the largest Calypso deployments in the world). You work alongside the original engineering team in North America and Europe. This is core product work, not legacy support. Long-term and fully remote, with overlap with US Eastern hours (6h for the trading roles; some roles work full ET hours for the first ~2 months of onboarding).\n- Senior Java Trading Systems Engineer (microsecond-latency OMS/order routing, equities/options/FX), 270–300 PLN/hr, remote from Poland or Romania: https://ats.vistulo.com/roles/253cbd69-1019-4547-93b6-6ef8db...\n- Senior C# Trading Systems Engineer (.NET, FIX, low-latency, 7+ yrs), 250–280 PLN/hr, remote from Poland or Romania: https://ats.vistulo.com/roles/a7986cb1-7531-4376-9f07-8dfa11...\n- Calypso Developer (Java, FX, fixed income), remote from Poland or Romania, 240–270 PLN/hr: https://ats.vistulo.com/roles/0b4668c6-525e-4d41-8c6a-f6a8b2...\n- Java Backend Engineer (event-driven distributed systems, 6+ yrs), 220–240 PLN/hr, remote from Poland or Romania,: https://ats.vistulo.com/roles/64866447-8224-49ab-b655-5c2f89...\n- Senior React Frontend Developer (React/TypeScript, fixed income trading flows, RFQ a plus), 220–250 PLN/hr, remote from Poland or Romania,: https://ats.vistulo.com/roles/1f5cb00f-791b-4491-a189-32a272...\n- Business Analyst / Product Owner, Calypso (Calypso v17+, IR & credit derivatives, back office), 200–240 PLN/hr, remote from Poland or Romania: https://ats.vistulo.com/roles/54c7dcf3-d40a-4d1f-8073-ee99c6...\nApply via the links above. Questions: contact@vistulo.com."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "PL",
+    "RO"
+   ],
+   "timezones": [],
+   "engagement": [
+    "B2B"
+   ],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "modash",
+  "company": "Modash.io",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49930681",
+    "url": "https://news.ycombinator.com/item?id=49930681",
+    "text": "Modash.io | Senior Product Engineer | Remote (Europe) | Full-time | €75k–110k | https://modash.io\nModash helps brands find, manage, and pay creators - and helps creators earn a living.\nThe product looks simple on the surface. Underneath, we index 380M+ public creator profiles across Instagram, TikTok, and YouTube so that 1,700+ brands search, evaluate, manage, and pay creators without drowning in spreadsheets and tabs.\nWe're looking for Senior Product Engineers who like owning ambiguous problems end-to-end. No perfectly shaped tickets. You talk to customers, understand messy workflows, make product decisions, ship, and own whether it actually works.\nThe problems we care about:\n- How do you make a 380M-profile dataset feel fast, trustworthy, and easy to explore?\n- How do you turn chaotic influencer marketing workflows into product that feels obvious?\n- How do you build tools that work for both small teams and brands like Stanley, Sennheiser, Birkenstock, and NordVPN??\nWe're 85 people, raised an €11M Series A, and ARR is doubling every year. HQ is in Tallinn, engineering is fully remote across Europe.\nNo ticket factory. No seven layers of approval. Small teams, real ownership, hard product problems.\nEngineering blog: https://modash.io/engineering\nApply: https://apply.workable.com/modash/j/C1507B65C3"
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "EUROPE"
+   ],
+   "timezones": [],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "hospitable",
+  "company": "Hospitable",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49930868",
+    "url": "https://news.ycombinator.com/item?id=49930868",
+    "text": "Hospitable | Senior Product Engineer (Laravel); Technical Support Engineer | REMOTE (EU / US up to East Coast) | Full-time | https://hospitable.com/careers\ntldr; Software for Airbnbs to rent themselves. Remote-only (~122 people, 31 countries), bootstrapped & profitable, community-funded by hosts. Radical transparency, high trust / low bureaucracy — you're trusted, not managed. Culture: Humble, Simple, Caring, Democratic. Handbook: https://hsptb.com/hndbk\nWe're all-in on Laravel (non-negotiable for eng) — stack is PALM-B: PHP, Angular, Laravel, MySQL, Beanstalk. Very AI-first: ~90–95% of production code is AI-generated via Cursor and similar; a great seat for agentic engineers who can direct models, review hard, and own what ships.\nApply: https://apply.hospitable.com\nSenior Product Engineer (Laravel) — Core & Growth\nREMOTE | EU or US East Coast timezones | $134,450–$167,258 total budget (COL-adjusted) | up to $76,026.50 $HOST RSUs | up to $380,895/yr Performance Share Units (PSUs; payout only when business targets hit — they don't time-vest)\nTLDR: Ship 0→1 on the Laravel monolith (properties, calendar, messaging, ops, growth) used by 25k+ hosts. 5+ yrs backend, deep Laravel/PHP/MySQL, hands-on agentic coding tools in a real production codebase.\nApply: https://wrkbl.ink/6P8FU3Z\nTechnical Support Engineer (Americas/EMEA)\nREMOTE | US or EMEA timezones | $106,448–$133,106 total budget (COL-adjusted) | up to $48,402 $HOST RSUs | up to $273,628/yr PSUs\nTLDR: Bridge Support ↔ Engineering — build Laravel/Nova/Fin internal tools and AI support endpoints, automate workflows, dig into hard customer bugs across the product. PHP/Laravel product-eng experience required.\nApply: https://wrkbl.ink/aVGzgxd\nPlease mention you found us via HN."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "EUROPE",
+    "US"
+   ],
+   "timezones": [
+    "EMEA",
+    "EUROPE",
+    "US",
+    "US_EAST"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "eventfirst",
+  "company": "eventfirst",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49930919",
+    "url": "https://news.ycombinator.com/item?id=49930919",
+    "text": "eventfirst | Senior Full-Stack Engineer | Berlin, Germany | REMOTE (CET) | Full-time | eventfirst.com\nWe are applying AI to organize corporate events.\nWe are looking for a senior engineer with at least ten years of full stack experience, a strong focus on product and UX, and some experience building an AI chat based product.\nOur tech stack is Typescript, React, Next.js and Tailwind. On the backend we use Drizzle with Neon, deployed and monitored via Vercel. Agents and background jobs are executed via trigger.dev. This gives us a killer DX because the entire tech stack supports preview branching. This allows coding agents to work in parallel on different features and verify their work independently very close to what will run in prod. CI is fast (2-3 min) and coverage is good enough to deploy to prod many times per day.\nPlease note that we are working remotely in the CET timezone. Having some remote experience is a plus.\nWe have pre-seed funding from a major US VC and are experienced founders. You’ll be working alongside the founders (ex-Apple, ex-Airbnb, ex-Tulip, ex-Tourlane) and will have a chance to shape the company, product and of course the engineering culture.\nApply here: https://eventfirst.jobs.personio.com/job/2821432/apply"
+   }
+  ],
+  "gold": {
+   "allowed": [],
+   "timezones": [
+    "CET"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "unknown",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "plantingspace",
+  "company": "PlantingSpace",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49931033",
+    "url": "https://news.ycombinator.com/item?id=49931033",
+    "text": "PlantingSpace | Full-time | Remote (EU time zone) + Quarterly Meet-ups | https://planting.space\nWe're building a system that represents domain knowledge as modular probabilistic models — making analysis rigorous and transparent. Users can connect these models flexibly into larger structures. The system enforces consistency across them, and propagates uncertainty through each step. Our first applications are in finance and scientific research, with use cases ranging from equity valuation and distress monitoring, to particle physics.\nWe're hiring for the following openings:\n* Technical Project Manager\n* Backend Software Engineer\n* Quantitative Modelling Engineer\n* Analytic Learning Algorithm Researcher\n* Product Managers and Business Development\n* Domain Experts - Valuation, Quantitative Default-Probability, or Interest Rate Prediction Models: to collaborate on use cases, from opportunity validation through production\nFind out more, and apply at: https://planting.space/joinus/"
+   }
+  ],
+  "gold": {
+   "allowed": [],
+   "timezones": [
+    "EUROPE"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "unknown",
+   "conflict": false
+  },
+  "split": "heldout"
+ },
+ {
+  "id": "lokker",
+  "company": "Lokker",
+  "sources": [
+   {
+    "name": "HN Who is hiring Oct 2026, item 49931740",
+    "url": "https://news.ycombinator.com/item?id=49931740",
+    "text": "Lokker.com | Data Scientist, Classification and Scoring | REMOTE: North America / Europe, UTC-8 to UTC+2 | Full-time\nLokker is a privacy platform. We continuously analyze websites, applications, third-party technologies and data flows to identify privacy, security and consent risks in production. We have built a large proprietary dataset from years of observing real-world digital behavior, and we are hiring a data scientist to help us expand and improve the classification, scoring and risk intelligence built on it.\nYou will develop and improve models that classify digital activity, identify meaningful privacy and security behaviors, and assess the confidence and significance of findings.\nLooking for 2 to 4 years of production experience in data science and machine learning. Strong Python and SQL, pandas or Polars, scikit-learn and modern classification techniques, familiarity with model evaluation and explainability. Practical experience in training and evaluating supervised classification models on real PRODUCTION data, practical LLM experience beyond simple demonstrations, and curiosity about how websites and internet technologies actually behave. You do not need a privacy or adtech background. We will teach the domain.\nYou will work closely with engineering, product and privacy experts, and what you build goes directly into the product.\nIMPORTANT: the timezone range above is a hard requirement, not a preference. We cannot make an exception.\nON APPLICATIONS: we assume you used AI to help write it. So do we. What we cannot do is verify a claim that exists only in the document you sent us, so make sure the skills you claim are visible somewhere public: LinkedIn with real dates and role detail, GitHub, papers, Kaggle, a writeup, a talk. If your best work is under NDA, say so and describe it in your own words.\nA human reads every application. No keyword filter, no automated rejection.\nApply: https://lokker.com/careers/openings/data-scientist-classific..."
+   }
+  ],
+  "gold": {
+   "allowed": [
+    "CA",
+    "EUROPE",
+    "US"
+   ],
+   "timezones": [
+    "UTC-8..UTC+2"
+   ],
+   "engagement": [],
+   "visa": "unknown",
+   "india": "no",
+   "conflict": false
+  },
+  "split": "dev"
+ }
+]
