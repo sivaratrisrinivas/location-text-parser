@@ -1,0 +1,50 @@
+[
+ [
+  "matcha",
+  "Matcha's founding engineer page says fully remote in the US, Canada, Europe, the UK, Brazil and Latin America."
+ ],
+ [
+  "hn",
+  "But the founder's Hacker News post from October 12 says fully remote, anywhere in the world."
+ ],
+ [
+  "hn",
+  "So can an engineer in India apply? One source says no. The other says yes."
+ ],
+ [
+  "tool",
+  "So I built a small tool that reads a job's location text from one or more sources."
+ ],
+ [
+  "parse",
+  "It returns allowed countries, time zones, EOR or contract setups, and visa sponsorship."
+ ],
+ [
+  "conflict",
+  "When the sources disagree, it says so, with a reason, instead of guessing."
+ ],
+ [
+  "searchatlas",
+  "Search Atlas is the same story. Its Hacker News post says anywhere. Its careers page lists six countries."
+ ],
+ [
+  "prairie",
+  "A clear post, like PrairieLearn's, comes back as US only, no visa sponsorship, no conflict."
+ ],
+ [
+  "table",
+  "I tested it on 32 real job posts with hand written labels. Half were held out while I wrote the rules."
+ ],
+ [
+  "table2",
+  "On the held out half, the rules got every field right on 11 of 16 jobs, and the India answer right on all 16."
+ ],
+ [
+  "table3",
+  "An LLM on Groq's free tier did worse, at 9 of 16. Every miss is listed in the repo."
+ ],
+ [
+  "end",
+  "The code, the cases, and the labels are public on GitHub."
+ ]
+]

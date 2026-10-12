@@ -1,0 +1,21 @@
+  [  0.00-  7.00]  Matches' founding engineer page says fully remote in the US, Canada, Europe, the UK, Brazil,
+  [  7.00-  8.00]  and Latin America.
+  [  8.00- 13.96]  But the founder's Hacker News post from October 12th says fully remote, anywhere in the world.
+  [ 13.96- 16.16]  So can an engineer in India apply?
+  [ 16.16- 17.52]  One source says no.
+  [ 17.52- 19.02]  The other says yes.
+  [ 19.02- 24.60]  So I built a small tool that reads a jobs location text from one or more sources.
+  [ 24.60- 30.86]  It returns allowed countries, time zones, EOR or contract setups, and visa sponsorship.
+  [ 30.86- 35.46]  When the sources disagree, it says so, with a reason instead of guessing.
+  [ 35.46- 37.66]  Search Atlas is the same story.
+  [ 37.66- 39.86]  Its Hacker News post says anywhere.
+  [ 39.86- 42.50]  Its careers page lists six countries.
+  [ 42.50- 46.72]  A clear post, like Prairie Learns, comes back as US only.
+  [ 46.72- 49.02]  No visa sponsorship, no conflict.
+  [ 49.02- 53.90]  I tested it on 32 real job posts with handwritten labels.
+  [ 53.90- 56.04]  Things were held out while I wrote the rules.
+  [ 56.04- 61.98]  On the held out half, the rules got every field right on 11 of 16 jobs, and the India?
+  [ 61.98- 63.84]  answer right on all 16.
+  [ 63.84- 68.38]  An LLM on Grox free tier did worse at 9 of 16.
+  [ 68.38- 70.22]  Every miss is listed in the repo.
+  [ 70.22- 73.74]  The code, the cases, and the labels are public on GitHub.
