@@ -9,7 +9,9 @@ A small tool that reads a job's location text and returns structured fields:
 - whether someone in India can apply
 - a conflict flag, with a reason, when two sources for the same job disagree
 
-Live demo: LIVE_URL
+Live demo: https://location-text-parser.vercel.app (rules engine, Vercel free tier)
+
+Demo video (75 s): https://github.com/sivaratrisrinivas/location-text-parser/releases/download/v0.1/matcha-location-text-demo.mp4
 
 ## Why
 
@@ -69,3 +71,9 @@ python web/server.py   # http://localhost:8000
 ```
 
 No keys needed; the web demo uses the rules engine.
+
+The hosted copy is one bundled Vercel Python function: `python scripts/bundle_vercel.py` writes `build/vercel/`, which is deployed by hand.
+
+## Video
+
+`video/` has the pipeline: Kokoro TTS per line (af_heart, speed 0.95), a headless Playwright recording that waits for each line to finish before the next action, then ffmpeg cuts page-load dead air, burns in captions, and normalizes to -16 LUFS. `video/stt.txt` is the speech-to-text check.
